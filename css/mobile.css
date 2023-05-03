@@ -3,7 +3,7 @@
 }
 header {
     background-color: black;
-    width: 100%;
+    width: 480%;
     height: 40px;
     display: flex;
 }
@@ -25,6 +25,7 @@ li {
     display: inline;
     text-decoration: none;
     background-color: black;
+    font-size: small;
 }
 li a {
     color: white;
@@ -32,20 +33,49 @@ li a {
     list-style: none;
     background-color: black;
 }
-.section-1 {
-    width: 100%;
+.hero {
+    width: 480px;
     height: 600px;
     background-color: rgb(73, 145, 204);
     color: white;
+    display: flex;
+    display: block;
 }
-.section-1 h1 {
-    font-size: 55px;
+.hero h1 {
+    font-size: 45px;
     padding-top: 130px;
     padding-left: 20px;
 }
-.section-1 p {
+.subtitle {
+    font-size: 25px;
+    font: bold;
+    word-spacing: 5px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.info {
+    font-size: 15px;
+    word-break: keep-all;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.hero div {
     padding-left: 20px;
 }
-.section-1 span {
-    padding-left: 20px;
+.boton {
+    background-color: green;
+    border-radius: 20px;
+    display: block;
+}
+div a {
+    align-items: center;
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+    width: 380px;
+    height: 50px;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
 }
