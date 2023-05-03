@@ -3,39 +3,40 @@
 }
 header {
     background-color: black;
-    width: 480%;
+    width: 480px;
     height: 40px;
     display: flex;
 }
 nav {
-    display: inline-block;
     display: flex;
     align-items: center;
     position: absolute;
     left: 27%;
-    background-color: black;
     height: 40px;
 }
 .logo {
     position: absolute;
     width: 80px;
+    margin: 2px;
     padding: 8px;
 }
+nav ul {
+    display: flex;
+    gap: 4px; 
+} 
 li {
-    display: inline;
     text-decoration: none;
-    background-color: black;
     font-size: small;
+    list-style: none;
 }
 li a {
     color: white;
     text-decoration: none;
     list-style: none;
-    background-color: black;
 }
 .hero {
     width: 480px;
-    height: 600px;
+    height: 550px;
     background-color: rgb(73, 145, 204);
     color: white;
     display: flex;
