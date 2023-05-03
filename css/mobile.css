@@ -1,12 +1,16 @@
 * {
-    max-width: 480px;
+    @media screen {
+        max-width: 480px;
+    }
 }
+
 header {
     background-color: black;
     width: 480px;
     height: 40px;
     display: flex;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -15,24 +19,22 @@ nav {
     height: 40px;
 }
 
-#menu-hamburguesa {
-  display: none;
-  background-color: #333;
-  width: 100%;
-  text-align: center;
-}
-#menu-hamburguesa ul li {
-  padding: 15px 0;
+.menu {
+    display: flex;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
 }
 
-#boton-hamburguesa {
-  background-color: #333;
-  color: #fff;
-  font-size: 24px;
-  font-family: sans-serif;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
+.boton-hamburguesa {
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 .logo {
@@ -41,20 +43,24 @@ nav {
     margin: 2px;
     padding: 8px;
 }
-nav ul {
+
+.nav ul {
     display: flex;
-    gap: 4px; 
-} 
+    gap: 4px;
+}
+
 li {
     text-decoration: none;
     font-size: small;
     list-style: none;
 }
+
 li a {
     color: white;
     text-decoration: none;
     list-style: none;
 }
+
 .hero {
     width: 480px;
     height: 550px;
@@ -63,32 +69,41 @@ li a {
     display: flex;
     display: block;
 }
+
 .hero h1 {
     font-size: 45px;
     padding-top: 130px;
     padding-left: 20px;
 }
+
 .subtitle {
     font-size: 25px;
     font: bold;
     word-spacing: 5px;
     padding-left: 20px;
     padding-top: 20px;
+    line-height: 30px;
 }
+
 .info {
     font-size: 15px;
     word-break: keep-all;
     padding-left: 20px;
     padding-top: 40px;
 }
+
 .hero div {
     padding-left: 20px;
 }
+
 .boton {
     background-color: green;
     border-radius: 20px;
     display: block;
+    text-transform: uppercase;
+
 }
+
 div a {
     align-items: center;
     margin-top: 15px;
