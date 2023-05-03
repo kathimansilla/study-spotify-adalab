@@ -14,6 +14,27 @@ nav {
     left: 27%;
     height: 40px;
 }
+
+#menu-hamburguesa {
+  display: none;
+  background-color: #333;
+  width: 100%;
+  text-align: center;
+}
+#menu-hamburguesa ul li {
+  padding: 15px 0;
+}
+
+#boton-hamburguesa {
+  background-color: #333;
+  color: #fff;
+  font-size: 24px;
+  font-family: sans-serif;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
 .logo {
     position: absolute;
     width: 80px;
